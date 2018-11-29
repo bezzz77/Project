@@ -1,0 +1,103 @@
+.first
+  position: relative
+  background-image: url("../img/back2.jpg")
+  background-repeat: no-repeat
+  background-size: auto
+  height: 470px
+  &::before
+    content: ""
+    background: #1f1f29
+    opacity: 0.8
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    position: absolute
+  @include res('tab')
+    background-size: auto
+.catalog
+  position: relative
+  display: flex
+  justify-content: space-between
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.catalog__wrap-text
+  width: 500px
+  height: 400px
+  h1
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    padding-top: 67px
+    color: #fff
+  @include res('tab')
+    h1
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    h1
+      font-size: 15px
+      text-align: center
+  p
+    font-size: 18px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 43px
+    color: #fff
+  @include res('tab')
+    p
+      font-size: 15px
+      text-align: center
+  @include res('mob')
+    p
+      font-size: 10px
+      text-align: center
+      width: 60%
+      margin: 0 auto
+.catalog-btn
+  height: 70px
+  width: 360px
+  border-radius: 25px
+  background-color: #4bdc2a
+  border: 0
+  color: #fff
+  position: relative
+  margin-top: 63px
+  font-family: "OpenSans"
+  font-size: 24px
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  @include res('tab')
+    height: 45px
+    width: 200px
+    font-size: 15px
+    left: 30%
+    letter-spacing: 0
+  @include res('mob')
+    height: 40px
+    width: 180px
+    font-size: 14px
+    left: 24%
+    letter-spacing: 0
+.catalog__img
+  position: relative
+  display: flex
+  flex-direction: row
+  width: 470px
+.position-img1
+  position: absolute
+  top: 50px
+  z-index: 2
+.catalog__img-2
+  width: 75%
+.catalog__img-1
+  width: 75%
+.position-img2
+  position: absolute
+  top: 40px
+  left: 150px

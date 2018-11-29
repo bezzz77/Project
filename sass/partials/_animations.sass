@@ -1,0 +1,42 @@
+//.fade
+//  animation: fade alternate 1s
+
+@keyframes fade
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes fade-down
+  from
+    opacity: 0
+    transform: translateY(-100%)
+  to
+    opacity: 1
+    transform: translateY(0)
+
+@keyframes fade-up
+  from
+    transform: translateY(100px)
+    opacity: 0
+  to
+    transform: translateY(0)
+    opacity: 1
+@keyframes fade-visibility
+  from
+    opacity: 0
+
+  to
+    opacity: 3
+@keyframes pulse
+  0%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+
+  20%
+    opacity: 1
+
+  100%
+    -webkit-transform: scale(1.3)
+    transform: scale(1.3)
+    opacity: 0

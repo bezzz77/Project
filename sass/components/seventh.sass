@@ -1,0 +1,87 @@
+.seventh
+  position: relative
+  background-color: #f7fbff
+.blog
+  display: flex
+  justify-content: space-between
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.blog__wrap-text
+  padding-bottom: 40px
+  h4
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    padding-top: 75px
+    padding-bottom: 35px
+    color: #7b9bc1
+    text-transform: uppercase
+  @include res('tab')
+    h4
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    h4
+      font-size: 15px
+      text-align: center
+.blog-btn
+  height: 70px
+  width: 360px
+  border-radius: 25px
+  background-color: #4bdc2a
+  border: 0
+  color: #fff
+  position: relative
+  margin-top: 63px
+  font-family: "OpenSans"
+  font-size: 24px
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  @include res('tab')
+    height: 45px
+    width: 200px
+    font-size: 15px
+    left: 30%
+    letter-spacing: 0
+  @include res('mob')
+    height: 40px
+    width: 180px
+    font-size: 14px
+    left: 24%
+    letter-spacing: 0
+.blog__img
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+.blog__img-edit
+  padding-right: 30px
+  &:last-child
+    padding-right: 0
+  h5
+    font-size: 18px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 25px
+    text-transform: uppercase
+    color: #7b9bc1
+  p
+    font-size: 16px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 30px
+  @include res('tab')
+    p
+      font-size: 15px
+      text-align: center
+  @include res('mob')
+    p
+      font-size: 10px
+      text-align: center
+      width: 60%
+      margin: 0 auto

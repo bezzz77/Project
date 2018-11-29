@@ -1,0 +1,30 @@
+.footer
+  display: flex
+  align-items: center
+  background-color: #394757
+  height: 150px
+.footer__wrap
+  position: relative
+.footer__nav
+  display: flex
+  flex-direction: row
+  align-items: center
+  a
+    text-decoration: none
+    color: #fff
+.footer__logo
+  @include res('tab')
+    width: 15%
+    margin-right: 30px
+  @include res('mob')
+    width: 20%
+.footer__logo-img
+  width: 100%
+.footer__nav-link
+  padding-left: 60px
+  &:last-child
+  @include res('tab')
+    &:last-child
+      margin-right: 0px
+.footer__contact-position
+  padding-left: 45px

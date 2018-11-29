@@ -1,0 +1,77 @@
+.third
+  position: relative
+  background-image: url("../img/back2.png")
+  background-repeat: no-repeat
+  background-size: auto
+  height: 592px
+  @include res('tab')
+    background-size: auto
+.combination
+  display: flex
+  justify-content: space-between
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.combination__wrap-text
+  width: 570px
+  height: 400px
+  h2
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    padding-top: 67px
+    color: #7b9bc1
+    text-transform: uppercase
+  @include res('tab')
+    h2
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    h2
+      font-size: 15px
+      text-align: center
+  p
+    font-size: 18px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 43px
+    color: #000
+  @include res('tab')
+    p
+      font-size: 15px
+      text-align: center
+  @include res('mob')
+    p
+      font-size: 10px
+      text-align: center
+      width: 60%
+      margin: 0 auto
+.combination-btn
+  height: 70px
+  width: 360px
+  border-radius: 25px
+  background-color: #4bdc2a
+  border: 0
+  color: #fff
+  position: relative
+  margin-top: 63px
+  font-family: "OpenSans"
+  font-size: 24px
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  @include res('tab')
+    height: 45px
+    width: 200px
+    font-size: 15px
+    left: 30%
+    letter-spacing: 0
+  @include res('mob')
+    height: 40px
+    width: 180px
+    font-size: 14px
+    left: 24%
+    letter-spacing: 0

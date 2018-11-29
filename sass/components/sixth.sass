@@ -1,0 +1,116 @@
+.sixth
+  position: relative
+  background-image: url("../img/back4.png")
+  background-repeat: no-repeat
+  background-size: auto
+  height: 692px
+  &::before
+    content: ""
+    background: #c7c5c8
+    opacity: 0.4
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    position: absolute
+    width: 55%
+  @include res('tab')
+    background-size: auto
+.coollife
+  display: flex
+  flex-direction: column
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.coollife__wrap-text
+  width: 570px
+  height: 280px
+  h4
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    padding-top: 55px
+    color: #7b9bc1
+    text-transform: uppercase
+  @include res('tab')
+    h4
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    h4
+      font-size: 15px
+      text-align: center
+  p
+    font-size: 18px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 40px
+    color: #000
+  @include res('tab')
+    p
+      font-size: 15px
+      text-align: center
+  @include res('mob')
+    p
+      font-size: 10px
+      text-align: center
+      width: 60%
+      margin: 0 auto
+.coollife-btn
+  height: 70px
+  width: 360px
+  border-radius: 25px
+  background-color: #4bdc2a
+  border: 0
+  color: #fff
+  position: relative
+  margin-top: 63px
+  font-family: "OpenSans"
+  font-size: 24px
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  @include res('tab')
+    height: 45px
+    width: 200px
+    font-size: 15px
+    left: 30%
+    letter-spacing: 0
+  @include res('mob')
+    height: 40px
+    width: 180px
+    font-size: 14px
+    left: 24%
+    letter-spacing: 0
+.coollife__edit
+  display: flex
+
+.coollife-img
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-right: 20px
+  img
+    padding-bottom: 87px
+    &:last-child
+      padding-bottom: 0
+.coollife__txt
+  width: 560px
+  height: 386px
+.coollife__txt-size
+  padding-bottom: 60px
+  &:last-child
+    padding-bottom: 0
+  h5
+    font-size: 24px
+    font-family: "OpenSans"
+    font-weight: bold
+    color: #7b9bc1
+    padding-bottom: 20px
+    p
+      font-size: 16px
+      font-family: "OpenSans"
+      font-weight: 300

@@ -1,0 +1,77 @@
+.fifth
+  position: relative
+.videosec
+  display: flex
+  justify-content: space-between
+  padding-top: 80px
+  padding-bottom: 55px
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.videosec__wrap-text
+  width: 570px
+  height: 430px
+  h3
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    padding-top: 67px
+    color: #7b9bc1
+    text-transform: uppercase
+  @include res('tab')
+    h3
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    h3
+      font-size: 15px
+      text-align: center
+  p
+    font-size: 18px
+    font-family: "OpenSans"
+    font-weight: 400
+    padding-top: 43px
+    color: #000
+  @include res('tab')
+    p
+      font-size: 15px
+      text-align: center
+  @include res('mob')
+    p
+      font-size: 10px
+      text-align: center
+      width: 60%
+      margin: 0 auto
+.videosec-btn
+  height: 70px
+  width: 360px
+  border-radius: 25px
+  background-color: #4bdc2a
+  border: 0
+  color: #fff
+  position: relative
+  margin-top: 63px
+  font-family: "OpenSans"
+  font-size: 24px
+  font-weight: bold
+  text-transform: uppercase
+  letter-spacing: 1px
+  @include res('tab')
+    height: 45px
+    width: 200px
+    font-size: 15px
+    left: 30%
+    letter-spacing: 0
+  @include res('mob')
+    height: 40px
+    width: 180px
+    font-size: 14px
+    left: 24%
+    letter-spacing: 0
+.videosec__play
+  video
+    width: 555px
+    height: 315px

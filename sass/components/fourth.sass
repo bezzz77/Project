@@ -1,0 +1,67 @@
+.fourth
+  position: relative
+  background-image: url("../img/back3.png")
+  background-repeat: no-repeat
+  background-size: auto
+  height: 699px
+  @include res('tab')
+    background-size: auto
+.slider__wrap-text
+  padding-top: 40px
+  padding-bottom: 40px
+  h3
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: bold
+    color: #fff
+    text-align: center
+.slider__animation
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+.slider-block
+  position: relative
+  width: 360px
+  height: 505px
+  background-color: #fff
+  border-radius: 20px
+  img
+    width: 100%
+    padding: 45px 90px 35px
+  p
+    font-size: 24px
+    font-family: "OpenSans"
+    font-weight: bold
+    text-align: center
+    padding-bottom: 25px
+  button
+    height: 65px
+    width: 250px
+    border-radius: 25px
+    background-color: #4bdc2a
+    border: 0
+    color: #fff
+    position: relative
+    font-family: "OpenSans"
+    font-size: 24px
+    font-weight: bold
+    text-transform: uppercase
+    letter-spacing: 1px
+    @include res('tab')
+      height: 45px
+      width: 200px
+      font-size: 15px
+      left: 30%
+      letter-spacing: 0
+    @include res('mob')
+      height: 40px
+      width: 180px
+      font-size: 14px
+      left: 24%
+      letter-spacing: 0
+.sl__anim-txt-wrap
+  position: absolute
+  bottom: 10px
+  display: flex
+  flex-direction: column
+  left: 55px
