@@ -3,28 +3,57 @@
   align-items: center
   background-color: #394757
   height: 150px
-.footer__wrap
   position: relative
+  @include res('mob')
+    height: 310px
 .footer__nav
+  height: 50px
+  width: 100%
   display: flex
   flex-direction: row
+  justify-content: space-around
   align-items: center
   a
-    text-decoration: none
     color: #fff
+    text-decoration: none
+    font-size: 16px
+    text-transform: uppercase
+    font-family: "OpenSans"
+    font-weight: 400
+    &:hover
+      cursor: pointer
+      color: #7b9bc1
+      transition: .3s
+  @include res('tab')
+    flex-direction: column
+    justify-content: center
+    line-height: 1.5
+  @include res('mob')
+    flex-direction: column
+    justify-content: center
+    a
+      font-size: 13px
+      font-weight: 400
 .footer__logo
+  position: absolute
+  width: 11%
+
+  left: 150px
   @include res('tab')
     width: 15%
-    margin-right: 30px
+    left: 75px
+    top: 29px
   @include res('mob')
-    width: 20%
-.footer__logo-img
-  width: 100%
-.footer__nav-link
-  padding-left: 60px
-  &:last-child
+    width: 11%
+    left: 100px
+    bottom: 0px
+.footer__social
+  position: absolute
+  top: 57px
+  right: 150px
   @include res('tab')
-    &:last-child
-      margin-right: 0px
-.footer__contact-position
-  padding-left: 45px
+    right: 100px
+  @include res('mob')
+    position: absolute
+    right: 120px
+    top: 40px

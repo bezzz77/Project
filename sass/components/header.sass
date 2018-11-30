@@ -18,6 +18,8 @@ body
   flex-direction: row
   justify-content: space-between
   @include res('tab')
+  @include res('mob')
+    display: none
 .header__logo
   padding-top: 20px
   margin-left: 30px
@@ -57,10 +59,16 @@ body
     text-transform: uppercase
     font-family: "OpenSans"
     font-weight: bold
+    &:hover
+      cursor: pointer
+      color: #7b9bc1
+      transition: .3s
   @include res('tab')
     a
       font-size: 13px
       font-weight: 400
+  @include res('mob')
+      display: none
 
 .background-nav
   background-color: #e7edf4
@@ -74,6 +82,10 @@ body
   align-items: center
   a
     color: #fff
+    &:hover
+      cursor: pointer
+      color: #000
+      transition: .3s
   @include res('tab')
     margin-right: -15px
     width: 175px
@@ -84,3 +96,40 @@ body
   @include res('tab')
     &:last-child
       margin-right: 0px
+
+.menu
+  @include res('mob')
+  	display: flex
+  	&__input
+  		display: none
+  		&:not(checked) ~ .menu__content
+  			display: none
+  		&:checked ~ .menu__content
+  			display: block
+  	&__label
+  		cursor: pointer
+.menu__content
+  a
+    font-size: 16px
+    font-family: "OpenSans"
+    font-weight: 400
+    color: #000
+    text-decoration: none
+    line-height: 1.5
+    &:hover
+      cursor: pointer
+      color: #7b9bc1
+.menu__label
+  height: 32px
+  width: 32px
+.menu
+  display: none
+  @include res('mob')
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: #e7edf4
+.menu__content-edit
+  display: flex
+  flex-direction: column
+  align-items: center

@@ -8,10 +8,26 @@
     color: #7b9bc1
     text-transform: uppercase
     padding-bottom: 105px
+    @include res('tab')
+      font-size: 30px
+      text-align: center
+    @include res('mob')
+      font-size: 23px
+      text-align: center
 .function-section
   display: flex
   flex-direction: row
   justify-content: space-between
+  @include res('tab')
+    display: grid
+    align-items: center
+    grid-template-columns: 155px 155px 155px
+    justify-content: space-around
+  @include res('mob')
+    display: grid
+    align-items: center
+    grid-template-columns: 155px 155px
+    justify-content: space-around
 .img-wrap
   position: relative
   padding-bottom: 30px
@@ -36,3 +52,5 @@
     text-transform: uppercase
     color: #7b9bc1
     padding-bottom: 35px
+    @include res('mob')
+      font-size: 14px

@@ -53,6 +53,29 @@
                     </li>
                 </ul>
               </div>
+              <div class="menu">
+                <input class="menu__input" id="menuid" type="checkbox" value="selected"/>
+                <label class="menu__label" for="menuid"><img src="icon/hamb.svg" alt="" class="material-icons"></label>
+                <div class="menu__content">
+                  <ul class="menu__content-edit">
+                    <li>
+                      <a href="#">Главная</a>
+                    </li>
+                    <li>
+                      <a href="#">О компании</a>
+                    </li>
+                    <li>
+                      <a href="#">О производителе</a>
+                    </li>
+                    <li>
+                      <a href="#">Блог</a>
+                    </li>
+                    <li>
+                      <a href="#">Выбрать парифайер</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
 
@@ -175,7 +198,7 @@
                 </div>
           </section>
 
-          <section class="fourth">
+          <!-- <section class="fourth">
             <div class="container">
               <div class="slider">
                 <div class="slider__wrap slider__wrap-text">
@@ -216,7 +239,7 @@
 
             </div>
 
-          </section>
+          </section> -->
 
           <section class="fifth">
             <div class="container">
@@ -227,11 +250,11 @@
                   ЗАДАЧАМИ</h3>
                   <p>Вы только нажимаете кнопку и через несколько мгновений многофункциональный настольный пурифайер выдает вам воду нужной температуры, лед или кофе.</p>
                   <button type="button" name="button" class="videosec-btn">узнать подробнее</button>
+                  <div class="videosec__play">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RLn1ErhxOPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videosec__play-edit"></iframe>
+                  </div>
                 </div>
-                <div class="videosec__play">
-                  <video src="https://youtu.be/RLn1ErhxOPo" controls poster="img/water.jpeg">
-                  </video>
-                </div>
+
           </section>
 
           <section class="sixth">
@@ -319,10 +342,10 @@
           <footer class="footer">
             <div class="container">
               <div class="footer_wrap">
+                <div class="footer__logo">
+                  <img src="img/logo.png" alt="logo" class="footer__logo-img">
+                </div>
                 <ul class="footer__nav ">
-                  <li class="footer__logo">
-                    <img src="img/logo.png" alt="logo" class="footer__logo-img">
-                  </li>
                   <li>
                       <a href="#" class="footer__nav-link uikit__link ">Главная</a>
                   </li>
@@ -338,6 +361,8 @@
                   <li>
                       <a href="#" class="footer__nav-link">Выбрать парифайер</a>
                   </li>
+                </ul>
+                <ul class="footer__social">
                   <li class="footer__contact-position">
                     <a href="https://facebook.com"><img src="icon/facebook.png" alt="" class="img-rounded center-block"></a>
                     <a href="https://instagram.com"><img src="icon/instagram.png" alt="" class="img-rounded center-block"></a>
@@ -350,9 +375,9 @@
             </div>
 
           </footer>
-
-
     </main>
 
+<script src="js/jquery-3.3.1.min"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

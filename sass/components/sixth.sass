@@ -15,19 +15,30 @@
     position: absolute
     width: 55%
   @include res('tab')
-    background-size: auto
+    background-size: contain
+    &::before
+      width: 100%
+  @include res('mob')
+    background-size: cover
+    &::before
+      width: 0
 .coollife
   display: flex
   flex-direction: column
   @include res('tab')
     display: flex
     justify-content: center
+    align-items: center
   @include res('mob')
     display: flex
     justify-content: center
+    height: 920px
 .coollife__wrap-text
   width: 570px
   height: 280px
+  @include res('mob')
+    height: 255px
+    width: 100%
   h4
     font-size: 36px
     font-family: "OpenSans"
@@ -41,8 +52,9 @@
       text-align: center
   @include res('mob')
     h4
-      font-size: 15px
+      font-size: 23px
       text-align: center
+      padding-top: 0
   p
     font-size: 18px
     font-family: "OpenSans"
@@ -55,7 +67,7 @@
       text-align: center
   @include res('mob')
     p
-      font-size: 10px
+      font-size: 13px
       text-align: center
       width: 60%
       margin: 0 auto
@@ -95,6 +107,8 @@
   padding-right: 20px
   img
     padding-bottom: 87px
+    @include res('mob')
+      padding-bottom: 127px
     &:last-child
       padding-bottom: 0
 .coollife__txt
@@ -110,7 +124,12 @@
     font-weight: bold
     color: #7b9bc1
     padding-bottom: 20px
-    p
-      font-size: 16px
-      font-family: "OpenSans"
-      font-weight: 300
+    @include res('mob')
+      font-size: 20px
+  p
+    font-size: 16px
+    font-family: "OpenSans"
+    font-weight: 300
+    @include res('mob')
+      font-size: 13px
+      line-height: 1.2

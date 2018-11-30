@@ -2,7 +2,7 @@
   position: relative
   background-image: url("../img/back2.jpg")
   background-repeat: no-repeat
-  background-size: auto
+  background-size: cover
   height: 470px
   &::before
     content: ""
@@ -47,6 +47,7 @@
     font-family: "OpenSans"
     font-weight: 400
     padding-top: 43px
+    padding-bottom: 65px
     color: #fff
   @include res('tab')
     p
@@ -54,10 +55,11 @@
       text-align: center
   @include res('mob')
     p
-      font-size: 10px
+      font-size: 12px
       text-align: center
       width: 60%
       margin: 0 auto
+      line-height: 25px
 .catalog-btn
   height: 70px
   width: 360px
@@ -66,7 +68,6 @@
   border: 0
   color: #fff
   position: relative
-  margin-top: 63px
   font-family: "OpenSans"
   font-size: 24px
   font-weight: bold
@@ -89,6 +90,10 @@
   display: flex
   flex-direction: row
   width: 470px
+  @include res('tab')
+    display: none
+  @include res('mob')
+    display: none
 .position-img1
   position: absolute
   top: 50px
