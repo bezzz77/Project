@@ -40,8 +40,7 @@
       text-align: center
   @include res('mob')
     h1
-      font-size: 15px
-      text-align: center
+      display: none
   p
     font-size: 18px
     font-family: "OpenSans"
@@ -55,11 +54,12 @@
       text-align: center
   @include res('mob')
     p
-      font-size: 12px
+      font-size: 22px
       text-align: center
-      width: 60%
+      width: 80%
       margin: 0 auto
       line-height: 25px
+      padding-bottom: 45px
 .catalog-btn
   height: 70px
   width: 360px
@@ -93,11 +93,19 @@
   @include res('tab')
     display: none
   @include res('mob')
-    display: none
+    position: absolute
+    bottom: 110px
+    width: 100%
 .position-img1
   position: absolute
   top: 50px
   z-index: 2
+  @include res('mob')
+    position: absolute
+    width: 36%
+    left: 60px
+    top: 0
+    z-index: 0
 .catalog__img-2
   width: 75%
 .catalog__img-1
@@ -106,3 +114,8 @@
   position: absolute
   top: 40px
   left: 150px
+  @include res('mob')
+    position: absolute
+    width: 36%
+    top: 0
+    left: 190px
