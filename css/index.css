@@ -1,1 +1,2362 @@
-html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,*::before,*::after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}body{margin:0}article,aside,footer,header,nav,section,figcaption,figure,main{display:block}hr{box-sizing:content-box;height:0;overflow:visible}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}a,area,button,input,label,select,textarea{-ms-touch-action:manipulation;touch-action:manipulation}button,input{overflow:visible}button,select{text-transform:none}[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}canvas{display:inline-block}template{display:none}[hidden]{display:none}h1,h2,h3,h4,h5,h6,p,blockquote,em,img,i,dl,dt,ol,ul,li,video,canvas{margin:0;padding:0;border:0;vertical-align:baseline}div,input,textarea,select,button,h1,h2,h3,h4,h5,h6,a,span{outline:none}ul,ol{list-style-type:none}input[type="submit"],button{cursor:pointer}input[type="submit"]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border:0}table{border-spacing:0;border-collapse:collapse;width:100%}textarea,input[type="text"],input[type="button"],input[type="submit"]{-webkit-appearance:none;border-radius:0}@font-face{font-family:"OpenSans";src:url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("opentype");font-weight:700;font-style:normal}@font-face{font-family:"OpenSans";src:url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("opentype");font-weight:400;font-style:normal}@font-face{font-family:"OpenSans";src:url("../fonts/Open_Sans/OpenSans-Light.ttf") format("opentype");font-weight:300;font-style:normal}@font-face{font-family:"OpenSans";src:url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("opentype");font-weight:600;font-style:normal}@keyframes fade{from{opacity:0}to{opacity:1}}@keyframes fade-down{from{opacity:0;transform:translateY(-100%)}to{opacity:1;transform:translateY(0)}}@keyframes fade-up{from{transform:translateY(100px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes fade-visibility{from{opacity:0}to{opacity:3}}@keyframes pulse{0%{-webkit-transform:scale(1);transform:scale(1)}20%{opacity:1}100%{-webkit-transform:scale(1.3);transform:scale(1.3);opacity:0}}.container{max-width:1170px;width:100%;padding:0 15px;margin:0 auto}@media only screen and (max-width: 768px){.container{max-width:768px}}@media only screen and (max-width: 375px){.container{max-width:375px}}body{width:100%;height:100vh;background-image:url("../img/bg-1.jpg");background-repeat:no-repeat;background-size:cover}.header .test{width:100%;background-color:#394757;height:13px}@media only screen and (min-width: 768px) and (max-width: 1199px){.header .test{width:100%}}.header__wrap{position:relative}.header__contact{display:flex;flex-direction:row;justify-content:space-between}@media only screen and (max-width: 767px){.header__contact{display:none}}.header__logo{padding-top:20px;margin-left:30px}@media only screen and (min-width: 768px) and (max-width: 1199px){.header__logo{width:15%;margin-right:30px}}@media only screen and (max-width: 767px){.header__logo{width:20%}}.header__logo-img{width:100%}.header__contact-position{padding-top:50px;font-family:"OpenSans";font-weight:400}.header__contact-position a{text-decoration:none;color:#000}@media only screen and (min-width: 768px) and (max-width: 1199px){.header__contact-position{padding-top:30px;font-size:12px;margin-right:30px}}.img-rounded{padding-left:15px}.header__nav{height:50px;width:100%;display:flex;flex-direction:row;justify-content:space-between;align-items:center}.header__nav a{color:#303030;text-decoration:none;font-size:16px;text-transform:uppercase;font-family:"OpenSans";font-weight:bold}.header__nav a:hover{cursor:pointer;color:#7b9bc1;transition:.3s}@media only screen and (min-width: 768px) and (max-width: 1199px){.header__nav a{font-size:13px;font-weight:400}}@media only screen and (max-width: 767px){.header__nav{display:none}}.background-nav{background-color:#e7edf4;width:100%}.call-back{height:50px;width:226px;background-color:#b1c4da;display:flex;justify-content:center;align-items:center}.call-back a{color:#fff}.call-back a:hover{cursor:pointer;color:#000;transition:.3s}@media only screen and (min-width: 768px) and (max-width: 1199px){.call-back{margin-right:-15px;width:175px;height:50px}}@media only screen and (min-width: 768px) and (max-width: 1199px){.header__nav-link:last-child{margin-right:0px}}@media only screen and (max-width: 767px){.menu{display:flex}.menu__input{display:none}.menu__input:not(checked) ~ .menu__content{display:none}.menu__input:checked ~ .menu__content{display:block}.menu__label{cursor:pointer}}.menu__content a{font-size:16px;font-family:"OpenSans";font-weight:400;color:#000;text-decoration:none;line-height:1.5}.menu__content a:hover{cursor:pointer;color:#7b9bc1}.menu__label{height:32px;width:32px}.menu{display:none}@media only screen and (max-width: 767px){.menu{display:flex;flex-direction:column;align-items:center;background-color:#e7edf4}}.menu__content-edit{display:flex;flex-direction:column;align-items:center}.first{position:relative;background-image:url("../img/back2.jpg");background-repeat:no-repeat;background-size:cover;height:470px}.first::before{content:"";background:#1f1f29;opacity:0.8;top:0;left:0;bottom:0;right:0;position:absolute}@media only screen and (min-width: 768px) and (max-width: 1199px){.first{background-size:auto}}.catalog{position:relative;display:flex;justify-content:space-between}@media only screen and (min-width: 768px) and (max-width: 1199px){.catalog{display:flex;justify-content:center}}@media only screen and (max-width: 767px){.catalog{display:flex;justify-content:center}}.catalog__wrap-text{width:500px;height:400px}.catalog__wrap-text h1{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:67px;color:#fff}@media only screen and (min-width: 768px) and (max-width: 1199px){.catalog__wrap-text h1{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.catalog__wrap-text h1{display:none}}.catalog__wrap-text p{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:43px;padding-bottom:65px;color:#fff}@media only screen and (min-width: 768px) and (max-width: 1199px){.catalog__wrap-text p{font-size:15px;text-align:center}}@media only screen and (max-width: 767px){.catalog__wrap-text p{font-size:22px;text-align:center;width:80%;margin:0 auto;line-height:25px;padding-bottom:45px}}.catalog-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.catalog-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0}}@media only screen and (max-width: 767px){.catalog-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.catalog__img{position:relative;display:flex;flex-direction:row;width:470px}@media only screen and (min-width: 768px) and (max-width: 1199px){.catalog__img{display:none}}@media only screen and (max-width: 767px){.catalog__img{position:absolute;bottom:110px;width:100%}}.position-img1{position:absolute;top:50px;z-index:2}@media only screen and (max-width: 767px){.position-img1{position:absolute;width:36%;left:60px;top:0;z-index:0}}.catalog__img-2{width:75%}.catalog__img-1{width:75%}.position-img2{position:absolute;top:40px;left:150px}@media only screen and (max-width: 767px){.position-img2{position:absolute;width:36%;top:0;left:190px}}.function_wrap h2{font-family:"OpenSans";font-size:36px;font-weight:bold;text-align:center;padding-top:57px;color:#7b9bc1;text-transform:uppercase;padding-bottom:105px}@media only screen and (min-width: 768px) and (max-width: 1199px){.function_wrap h2{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.function_wrap h2{font-size:23px;text-align:center}}.function-section{display:flex;flex-direction:row;justify-content:space-between}@media only screen and (min-width: 768px) and (max-width: 1199px){.function-section{display:grid;align-items:center;grid-template-columns:155px 155px 155px;justify-content:space-around}}@media only screen and (max-width: 767px){.function-section{display:grid;align-items:center;grid-template-columns:155px 155px;justify-content:space-around}}.img-wrap{position:relative;padding-bottom:30px}.icnedit{position:absolute;top:40px}.icnedit-1{position:absolute;top:55px}.icnedit-2{position:absolute;top:75px}.txt-wrap{display:flex;flex-direction:column;align-items:center;padding-bottom:50px}.txt-wrap p{font-family:"OpenSans";font-size:18px;font-weight:bold;text-transform:uppercase;color:#7b9bc1;padding-bottom:35px}@media only screen and (max-width: 767px){.txt-wrap p{font-size:14px}}.third{position:relative;background-image:url("../img/back2.png");background-repeat:no-repeat;background-size:cover;height:592px}@media only screen and (min-width: 768px) and (max-width: 1199px){.third{background-size:auto}}.combination{display:flex;justify-content:space-between}@media only screen and (min-width: 768px) and (max-width: 1199px){.combination{display:flex;justify-content:center}}@media only screen and (max-width: 767px){.combination{display:flex;justify-content:center}}.combination__wrap-text{width:570px;height:400px}.combination__wrap-text h2{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:67px;color:#7b9bc1;text-transform:uppercase}@media only screen and (min-width: 768px) and (max-width: 1199px){.combination__wrap-text h2{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.combination__wrap-text h2{font-size:23px;text-align:center}}.combination__wrap-text p{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:43px;padding-bottom:65px;color:#000}@media only screen and (min-width: 768px) and (max-width: 1199px){.combination__wrap-text p{font-size:15px;text-align:center;padding-top:100px;line-height:2;padding-bottom:50px}}@media only screen and (max-width: 767px){.combination__wrap-text p{font-size:13px;text-align:center;width:60%;margin:0 auto;line-height:2;padding-top:95px;padding-bottom:100px}}.combination-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.combination-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0}}@media only screen and (max-width: 767px){.combination-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.fourth{position:relative;background-image:url("../img/back3.png");background-repeat:no-repeat;background-size:cover;height:699px}@media only screen and (min-width: 768px) and (max-width: 1199px){.fourth{background-size:auto}}.slider__wrap-text{padding-top:40px;padding-bottom:40px}.slider__wrap-text h3{font-size:36px;font-family:"OpenSans";font-weight:bold;color:#fff;text-align:center}.slider__animation{display:flex;flex-direction:row;justify-content:space-between}.slider-block{position:relative;width:360px;height:505px;background-color:#fff;border-radius:20px}.slider-block img{width:100%;padding:45px 90px 35px}.slider-block p{font-size:24px;font-family:"OpenSans";font-weight:bold;text-align:center;padding-bottom:25px}.slider-block button{height:65px;width:250px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.slider-block button{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0}}@media only screen and (max-width: 767px){.slider-block button{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.sl__anim-txt-wrap{position:absolute;bottom:10px;display:flex;flex-direction:column;left:55px}.slider__form{display:none;justify-content:center}.slider__form-wrap{width:945px;height:655px;background-color:#fff;border-radius:25px}.slider__form-wrap h5{font-size:36px;color:#7b9bc1;font-family:"Open Sans";text-align:center;font-weight:bold;margin:0 auto;padding:45px 0 70px}.slider__form-wrap p{text-align:center;font-size:16px;color:#303030;font-family:"Open Sans";font-weight:300;padding:0 50px 85px}.slider__form-send{display:flex;flex-direction:column;align-items:center}.slider__form-send-edit{width:750px;height:60px;margin-bottom:40px;border-top-width:0;border-left-width:0;border-right-width:0}.slider-btn{height:65px;width:420px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}.fifth{position:relative}.videosec{display:flex;justify-content:space-between;padding-top:80px;padding-bottom:55px}@media only screen and (max-width: 767px){.videosec{display:flex;justify-content:center}}.videosec__wrap{position:relative}@media only screen and (min-width: 768px) and (max-width: 1199px){.videosec__wrap{display:flex;flex-direction:column;justify-content:center;align-items:center;height:max-content}}.videosec__wrap-text{width:100%}.videosec__wrap-text h3{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:67px;color:#7b9bc1;width:570px;text-transform:uppercase}@media only screen and (min-width: 768px) and (max-width: 1199px){.videosec__wrap-text h3{font-size:30px;text-align:center;padding-top:0}}@media only screen and (max-width: 767px){.videosec__wrap-text h3{font-size:23px;text-align:center;width:100%;padding-top:0}}.videosec__wrap-text p{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:43px;color:#000;width:570px;padding-bottom:63px}@media only screen and (min-width: 768px) and (max-width: 1199px){.videosec__wrap-text p{font-size:15px;text-align:center;line-height:2}}@media only screen and (max-width: 767px){.videosec__wrap-text p{font-size:13px;text-align:center;width:60%;margin:0 auto}}.videosec-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.videosec-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0;position:static}}@media only screen and (max-width: 767px){.videosec-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.videosec__play{position:absolute;top:67px;right:0}@media only screen and (min-width: 768px) and (max-width: 1199px){.videosec__play{position:relative;bottom:0;left:0;padding-bottom:50px}}@media only screen and (max-width: 767px){.videosec__play{position:relative;bottom:0;left:0;padding-top:25px}}@media only screen and (max-width: 767px){.videosec__play-edit{width:100%;height:195px}}.sixth{position:relative;background-image:url("../img/back4.png");background-repeat:no-repeat;background-size:auto;height:692px}.sixth::before{content:"";background:#c7c5c8;opacity:0.4;top:0;left:0;bottom:0;right:0;position:absolute;width:55%}@media only screen and (min-width: 768px) and (max-width: 1199px){.sixth{background-size:contain}.sixth::before{width:100%}}@media only screen and (max-width: 767px){.sixth{background-size:cover;height:100%}.sixth::before{width:0}}.sixth-edit{position:relative}.coollife{display:flex;flex-direction:column}@media only screen and (min-width: 768px) and (max-width: 1199px){.coollife{display:flex;justify-content:center;align-items:center}}@media only screen and (max-width: 767px){.coollife{display:flex;justify-content:center;height:920px}}.coollife__wrap-text{width:570px;height:280px}@media only screen and (max-width: 767px){.coollife__wrap-text{height:255px;width:100%}}.coollife__wrap-text h4{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:55px;color:#7b9bc1;text-transform:uppercase}@media only screen and (min-width: 768px) and (max-width: 1199px){.coollife__wrap-text h4{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.coollife__wrap-text h4{font-size:23px;text-align:center;padding-top:0}}.coollife__wrap-text p{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:40px;color:#000}@media only screen and (min-width: 768px) and (max-width: 1199px){.coollife__wrap-text p{font-size:15px;text-align:center}}@media only screen and (max-width: 767px){.coollife__wrap-text p{font-size:13px;text-align:center;width:60%;margin:0 auto}}.coollife-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;margin-top:63px;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.coollife-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0}}@media only screen and (max-width: 767px){.coollife-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.coollife__edit{display:flex}.coollife-img{display:flex;flex-direction:column;align-items:center;padding-right:20px}.coollife-img img{padding-bottom:87px}@media only screen and (max-width: 767px){.coollife-img img{padding-bottom:127px}}.coollife-img img:last-child{padding-bottom:0}.coollife__txt{width:560px;height:386px}.coollife__txt-size{padding-bottom:60px}.coollife__txt-size:last-child{padding-bottom:0}.coollife__txt-size h5{font-size:24px;font-family:"OpenSans";font-weight:bold;color:#7b9bc1;padding-bottom:20px}@media only screen and (max-width: 767px){.coollife__txt-size h5{font-size:20px}}.coollife__txt-size p{font-size:16px;font-family:"OpenSans";font-weight:300}@media only screen and (max-width: 767px){.coollife__txt-size p{font-size:13px;line-height:1.2}}.seventh{position:relative;background-color:#f7fbff}.blog{display:flex;justify-content:space-between}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog{display:flex;justify-content:center}}@media only screen and (max-width: 767px){.blog{display:flex;justify-content:center}}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog__wrap{display:flex;flex-direction:column;align-items:center}}.blog__wrap-text{padding-bottom:40px}.blog__wrap-text h4{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:75px;padding-bottom:35px;color:#7b9bc1;text-transform:uppercase}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog__wrap-text h4{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.blog__wrap-text h4{font-size:23px;text-align:center}}.blog-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0;position:static}}@media only screen and (max-width: 767px){.blog-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.blog__img{display:flex;flex-direction:row;justify-content:space-around;padding-bottom:63px}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog__img{display:block}}@media only screen and (max-width: 767px){.blog__img{padding-right:0;display:flex;flex-direction:column;justify-content:space-around;padding-bottom:63px}}.blog__img-edit{padding-right:30px}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog__img-edit{display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:50px;padding-right:0}}@media only screen and (max-width: 767px){.blog__img-edit{padding-right:0;padding-bottom:20px}}.blog__img-edit:last-child{padding-right:0}.blog__img-edit h5{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:25px;text-transform:uppercase;color:#7b9bc1}@media only screen and (max-width: 767px){.blog__img-edit h5{font-size:18px;text-align:center}}.blog__img-edit p{font-size:16px;font-family:"OpenSans";font-weight:400;padding-top:30px}@media only screen and (min-width: 768px) and (max-width: 1199px){.blog__img-edit p{font-size:15px;text-align:center}}@media only screen and (max-width: 767px){.blog__img-edit p{font-size:13px;text-align:center;width:60%;margin:0 auto}}.eighth{position:relative}.mission{display:flex;justify-content:space-between}@media only screen and (min-width: 768px) and (max-width: 1199px){.mission{display:flex;justify-content:center}}@media only screen and (max-width: 767px){.mission{display:flex;justify-content:center}}.mission__wrap-text{padding-bottom:90px}.mission__wrap-text h4{font-size:36px;font-family:"OpenSans";font-weight:600;padding-top:65px;color:#7b9bc1;text-transform:uppercase}@media only screen and (min-width: 768px) and (max-width: 1199px){.mission__wrap-text h4{font-size:30px;text-align:center}}@media only screen and (max-width: 767px){.mission__wrap-text h4{font-size:15px;text-align:center}}.mission__wrap-text p{font-size:18px;font-family:"OpenSans";font-weight:400;padding-top:43px;color:#000}@media only screen and (min-width: 768px) and (max-width: 1199px){.mission__wrap-text p{font-size:17px;text-align:center}}@media only screen and (max-width: 767px){.mission__wrap-text p{font-size:13px;text-align:center;width:60%;margin:0 auto}}.mission-btn{height:70px;width:360px;border-radius:25px;background-color:#4bdc2a;border:0;color:#fff;position:relative;margin-top:63px;font-family:"OpenSans";font-size:24px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}@media only screen and (min-width: 768px) and (max-width: 1199px){.mission-btn{height:45px;width:200px;font-size:15px;left:30%;letter-spacing:0}}@media only screen and (max-width: 767px){.mission-btn{height:40px;width:180px;font-size:14px;left:24%;letter-spacing:0}}.mission__wrap{display:flex;justify-content:space-between}.mission__txt-edit{padding-right:200px}@media only screen and (min-width: 768px) and (max-width: 1199px){.mission__txt-edit{padding-right:0}}@media only screen and (max-width: 767px){.mission__txt-edit{padding-right:0}}.mission__txt-edit p{width:500px;padding-bottom:63px}@media only screen and (max-width: 767px){.mission__txt-edit p{width:100%}}.missionimg{padding-top:65px}@media only screen and (min-width: 768px) and (max-width: 1199px){.missionimg{display:none}}@media only screen and (max-width: 767px){.missionimg{display:none}}.footer{display:flex;align-items:center;background-color:#394757;height:150px;position:relative}@media only screen and (max-width: 767px){.footer{height:310px}}.footer__nav{height:50px;width:100%;display:flex;flex-direction:row;justify-content:space-around;align-items:center}.footer__nav a{color:#fff;text-decoration:none;font-size:16px;text-transform:uppercase;font-family:"OpenSans";font-weight:400}.footer__nav a:hover{cursor:pointer;color:#7b9bc1;transition:.3s}@media only screen and (min-width: 768px) and (max-width: 1199px){.footer__nav{flex-direction:column;justify-content:center;line-height:1.5}}@media only screen and (max-width: 767px){.footer__nav{flex-direction:column;justify-content:center}.footer__nav a{font-size:13px;font-weight:400}}.footer__logo{position:absolute;width:11%;left:150px}@media only screen and (min-width: 768px) and (max-width: 1199px){.footer__logo{width:15%;left:75px;top:29px}}@media only screen and (max-width: 767px){.footer__logo{width:11%;left:100px;bottom:0px}}.footer__social{position:absolute;top:57px;right:150px}@media only screen and (min-width: 768px) and (max-width: 1199px){.footer__social{right:100px}}@media only screen and (max-width: 767px){.footer__social{position:absolute;right:120px;top:40px}}
+@charset "UTF-8";
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 8, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* Sections
+   @mixin ========================================================================= */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 33, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 41, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+article, aside, footer, header, nav, section, figcaption, figure, main {
+  display: block;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 50, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* Text-level semantics
+   @mixin ========================================================================= */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 64, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 74, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 84, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 95, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 103, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 107, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   @mixin ========================================================================= */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 118, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 127, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 136, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 144, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 153, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/**Enable panning and pinch zoom gestures, but disable additional non-standard gestures such as double-tap to zoom. Disabling double-tap to zoom removes the need for browsers to delay the generation of click events when the user taps the screen. */
+/* line 168, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+a, area, button, input, label, select, textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 179, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+button,
+input {
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 189, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 202, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 211, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 226, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 240, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 249, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 258, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 268, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* Scripting
+   @mixin ========================================================================= */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 280, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 288, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+template {
+  display: none;
+}
+
+/* Hidden
+   @mixin ========================================================================= */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 299, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+[hidden] {
+  display: none;
+}
+
+/* Reset
+   @mixin ========================================================================= */
+/* line 306, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+h1, h2, h3, h4, h5, h6, p, blockquote, em, img, i, dl, dt, ol, ul, li, video, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* line 313, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+div, input, textarea, select, button,
+h1, h2, h3, h4, h5, h6, a, span {
+  outline: none;
+}
+
+/* line 318, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+ul, ol {
+  list-style-type: none;
+}
+
+/* line 322, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+
+/* line 325, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+input[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 331, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/** to remove the rounded in IOS*/
+/* line 338, C:/Users/Коля/Desktop/Project/sass/libs/normalize.sass */
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-down {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-visibility {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 3;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/partials/_grid.sass */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/partials/_grid.sass */
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/partials/_grid.sass */
+  .container {
+    max-width: 375px;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 8, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header .test {
+  width: 100%;
+  background-color: #394757;
+  height: 13px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 8, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header .test {
+    width: 100%;
+  }
+}
+
+/* line 14, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__wrap {
+  position: relative;
+}
+
+/* line 16, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 16, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__contact {
+    display: none;
+  }
+}
+
+/* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__logo {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__logo {
+    width: 15%;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__logo {
+    width: 20%;
+  }
+}
+
+/* line 31, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__logo-img {
+  width: 100%;
+}
+
+/* line 33, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact-position-one {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  font-family: "OpenSans";
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 33, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__contact-position-one {
+    font-size: 12px;
+    padding-top: 0;
+    margin-right: 20px;
+  }
+}
+
+/* line 43, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact-position-one a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 46, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact-position-one img {
+  padding-right: 10px;
+}
+
+/* line 49, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact-position {
+  padding-top: 50px;
+  font-family: "OpenSans";
+  font-weight: 400;
+}
+
+/* line 53, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact-position a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 49, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__contact-position {
+    padding-top: 30px;
+    font-size: 12px;
+    margin-right: 30px;
+  }
+}
+
+/* line 60, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.img-rounded {
+  padding-left: 15px;
+}
+
+/* line 63, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 70, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__nav a {
+  color: #303030;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "OpenSans";
+  font-weight: bold;
+}
+
+/* line 77, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__nav a:hover {
+  cursor: pointer;
+  color: #7b9bc1;
+  transition: .3s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 82, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__nav a {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__nav {
+    display: none;
+  }
+}
+
+/* line 88, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.background-nav {
+  background-color: #e7edf4;
+  width: 100%;
+}
+
+/* line 91, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.call-back {
+  height: 50px;
+  width: 226px;
+  background-color: #b1c4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 98, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.call-back a {
+  color: #fff;
+}
+
+/* line 100, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.call-back a:hover {
+  cursor: pointer;
+  color: #000;
+  transition: .3s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 91, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .call-back {
+    margin-right: -15px;
+    width: 175px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 112, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__nav-link:last-child {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 115, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu {
+    display: flex;
+  }
+  /* line 118, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu__input {
+    display: none;
+  }
+  /* line 120, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu__input:not(checked) ~ .menu__content {
+    display: none;
+  }
+  /* line 122, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu__input:checked ~ .menu__content {
+    display: block;
+  }
+  /* line 124, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu__label {
+    cursor: pointer;
+  }
+}
+
+/* line 127, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.menu__content a {
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+/* line 134, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.menu__content a:hover {
+  cursor: pointer;
+  color: #7b9bc1;
+}
+
+/* line 137, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.menu__label {
+  height: 32px;
+  width: 32px;
+}
+
+/* line 140, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 140, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7edf4;
+  }
+}
+
+/* line 147, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.menu__content-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.first {
+  position: relative;
+  background-image: url("../img/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+}
+
+/* line 7, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.first::before {
+  content: "";
+  background: #1f1f29;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .first {
+    background-size: auto;
+  }
+}
+
+/* line 18, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 18, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 18, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* line 28, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__wrap-text {
+  width: 500px;
+  height: 400px;
+}
+
+/* line 31, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__wrap-text h1 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 67px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 38, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__wrap-text h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 42, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__wrap-text h1 {
+    display: none;
+  }
+}
+
+/* line 44, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__wrap-text p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 43px;
+  padding-bottom: 65px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 52, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__wrap-text p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 56, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__wrap-text p {
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 45px;
+  }
+}
+
+/* line 63, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 88, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__img {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 88, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 88, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .catalog__img {
+    position: absolute;
+    bottom: 110px;
+    width: 100%;
+  }
+}
+
+/* line 99, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.position-img1 {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 99, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .position-img1 {
+    position: absolute;
+    width: 36%;
+    left: 60px;
+    top: 0;
+    z-index: 0;
+  }
+}
+
+/* line 109, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__img-2 {
+  width: 75%;
+}
+
+/* line 111, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.catalog__img-1 {
+  width: 75%;
+}
+
+/* line 113, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+.position-img2 {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 113, C:/Users/Коля/Desktop/Project/sass/components/first.sass */
+  .position-img2 {
+    position: absolute;
+    width: 36%;
+    top: 0;
+    left: 190px;
+  }
+}
+
+/* line 2, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.function_wrap h2 {
+  font-family: "OpenSans";
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 57px;
+  color: #7b9bc1;
+  text-transform: uppercase;
+  padding-bottom: 105px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 2, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+  .function_wrap h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 2, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+  .function_wrap h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+/* line 17, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.function-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 17, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+  .function-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 155px 155px 155px;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 17, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+  .function-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 155px 155px;
+    justify-content: space-around;
+  }
+}
+
+/* line 31, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.img-wrap {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/* line 34, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.icnedit {
+  position: absolute;
+  top: 40px;
+}
+
+/* line 37, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.icnedit-1 {
+  position: absolute;
+  top: 55px;
+}
+
+/* line 40, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.icnedit-2 {
+  position: absolute;
+  top: 75px;
+}
+
+/* line 43, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.txt-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* line 48, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+.txt-wrap p {
+  font-family: "OpenSans";
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7b9bc1;
+  padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 48, C:/Users/Коля/Desktop/Project/sass/components/second.sass */
+  .txt-wrap p {
+    font-size: 14px;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.third {
+  position: relative;
+  background-image: url("../img/back2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 592px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .third {
+    background-size: auto;
+  }
+}
+
+/* line 9, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.combination {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 9, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 9, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* line 18, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.combination__wrap-text {
+  width: 570px;
+  height: 400px;
+}
+
+/* line 21, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.combination__wrap-text h2 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 67px;
+  color: #7b9bc1;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 29, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination__wrap-text h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 33, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination__wrap-text h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+/* line 36, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.combination__wrap-text p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 43px;
+  padding-bottom: 65px;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 44, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination__wrap-text p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 51, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination__wrap-text p {
+    font-size: 13px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+    padding-top: 95px;
+    padding-bottom: 100px;
+  }
+}
+
+/* line 59, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+.combination-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 59, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 59, C:/Users/Коля/Desktop/Project/sass/components/third.sass */
+  .combination-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.fourth {
+  position: relative;
+  background-image: url("../img/back3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 699px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .fourth {
+    background-size: auto;
+  }
+}
+
+/* line 9, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__wrap-text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 12, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__wrap-text h3 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 18, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__animation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 23, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.sl__anim-img-wrap img {
+  width: 100%;
+  padding: 45px 90px 35px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .sl__anim-img-wrap img {
+    padding: 40px 40px;
+    width: 100%;
+  }
+}
+
+/* line 29, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider-block {
+  position: relative;
+  width: 360px;
+  height: 505px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 29, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .slider-block {
+    width: 230px;
+    height: 450px;
+    position: relative;
+  }
+}
+
+/* line 39, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider-block p {
+  font-size: 24px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 39, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .slider-block p {
+    font-size: 20px;
+  }
+}
+
+/* line 47, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider-block button {
+  height: 65px;
+  width: 250px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 47, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .slider-block button {
+    height: 45px;
+    width: 160px;
+    font-size: 15px;
+    margin: 0 auto;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 47, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .slider-block button {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 72, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.sl__anim-txt-wrap {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  left: 55px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 72, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .sl__anim-txt-wrap {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* line 86, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form {
+  display: none;
+  justify-content: center;
+}
+
+/* line 89, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form-wrap {
+  width: 945px;
+  height: 655px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+/* line 94, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form-wrap h5 {
+  font-size: 36px;
+  color: #7b9bc1;
+  font-family: "Open Sans";
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 45px 0 70px;
+}
+
+/* line 102, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form-wrap p {
+  text-align: center;
+  font-size: 16px;
+  color: #303030;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding: 0 50px 85px;
+}
+
+/* line 109, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form-send {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 113, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider__form-send-edit {
+  width: 750px;
+  height: 60px;
+  margin-bottom: 40px;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/* line 120, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+.slider-btn {
+  height: 65px;
+  width: 420px;
+  border-radius: 25px;
+  background-color: #65b359;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 120, C:/Users/Коля/Desktop/Project/sass/components/fourth.sass */
+  .slider-btn {
+    width: 160px;
+    margin: 0 auto;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.fifth {
+  position: relative;
+}
+
+/* line 3, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 3, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* line 11, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec__wrap {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 11, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+  }
+}
+
+/* line 19, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec__wrap-text {
+  width: 100%;
+}
+
+/* line 21, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec__wrap-text h3 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 67px;
+  color: #7b9bc1;
+  width: 570px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 30, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__wrap-text h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 35, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__wrap-text h3 {
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+/* line 40, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec__wrap-text p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 43px;
+  color: #000;
+  width: 570px;
+  padding-bottom: 63px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 49, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__wrap-text p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 2;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 54, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__wrap-text p {
+    font-size: 13px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* line 59, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 59, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 59, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 85, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+.videosec__play {
+  position: absolute;
+  top: 67px;
+  right: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 85, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__play {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 85, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__play {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 99, C:/Users/Коля/Desktop/Project/sass/components/fifth.sass */
+  .videosec__play-edit {
+    width: 100%;
+    height: 195px;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.sixth {
+  position: relative;
+  background-image: url("../img/back4.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 692px;
+}
+
+/* line 7, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.sixth::before {
+  content: "";
+  background: #c7c5c8;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 55%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .sixth {
+    background-size: contain;
+  }
+  /* line 19, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .sixth::before {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .sixth {
+    background-size: cover;
+    height: 100%;
+  }
+  /* line 24, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .sixth::before {
+    width: 0;
+  }
+}
+
+/* line 26, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.sixth-edit {
+  position: relative;
+}
+
+/* line 28, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 28, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 28, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife {
+    display: flex;
+    justify-content: center;
+    height: 920px;
+  }
+}
+
+/* line 39, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__wrap-text {
+  width: 570px;
+  height: 280px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 39, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__wrap-text {
+    height: 255px;
+    width: 100%;
+  }
+}
+
+/* line 45, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__wrap-text h4 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 55px;
+  color: #7b9bc1;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 53, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__wrap-text h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 57, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__wrap-text h4 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 0;
+  }
+}
+
+/* line 61, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__wrap-text p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 40px;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 68, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__wrap-text p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 72, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__wrap-text p {
+    font-size: 13px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* line 77, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  margin-top: 63px;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 77, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 77, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 103, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__edit {
+  display: flex;
+}
+
+/* line 106, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+}
+
+/* line 111, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife-img img {
+  padding-bottom: 87px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 111, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife-img img {
+    padding-bottom: 127px;
+  }
+}
+
+/* line 115, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife-img img:last-child {
+  padding-bottom: 0;
+}
+
+/* line 117, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__txt {
+  width: 560px;
+  height: 386px;
+}
+
+/* line 120, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__txt-size {
+  padding-bottom: 60px;
+}
+
+/* line 122, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__txt-size:last-child {
+  padding-bottom: 0;
+}
+
+/* line 124, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__txt-size h5 {
+  font-size: 24px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  color: #7b9bc1;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 124, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__txt-size h5 {
+    font-size: 20px;
+  }
+}
+
+/* line 132, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+.coollife__txt-size p {
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 132, C:/Users/Коля/Desktop/Project/sass/components/sixth.sass */
+  .coollife__txt-size p {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.seventh {
+  position: relative;
+  background-color: #f7fbff;
+}
+
+/* line 4, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 4, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 4, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 13, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* line 19, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__wrap-text {
+  padding-bottom: 40px;
+}
+
+/* line 21, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__wrap-text h4 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 75px;
+  padding-bottom: 35px;
+  color: #7b9bc1;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 30, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__wrap-text h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 34, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__wrap-text h4 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+/* line 37, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 37, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 37, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 63, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 63px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img {
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 63px;
+  }
+}
+
+/* line 76, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__img-edit {
+  padding-right: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 76, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 76, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img-edit {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 88, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__img-edit:last-child {
+  padding-right: 0;
+}
+
+/* line 90, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__img-edit h5 {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 25px;
+  text-transform: uppercase;
+  color: #7b9bc1;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 90, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img-edit h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* line 100, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+.blog__img-edit p {
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 106, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img-edit p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 110, C:/Users/Коля/Desktop/Project/sass/components/seventh.sass */
+  .blog__img-edit p {
+    font-size: 13px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.eighth {
+  position: relative;
+}
+
+/* line 3, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 3, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 3, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* line 12, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__wrap-text {
+  padding-bottom: 90px;
+}
+
+/* line 14, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__wrap-text h4 {
+  font-size: 36px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  padding-top: 65px;
+  color: #7b9bc1;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 22, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__wrap-text h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 26, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__wrap-text h4 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* line 29, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__wrap-text p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  padding-top: 50px;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 36, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__wrap-text p {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 40, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__wrap-text p {
+    font-size: 13px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* line 45, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission-btn {
+  height: 70px;
+  width: 360px;
+  border-radius: 25px;
+  background-color: #4bdc2a;
+  border: 0;
+  color: #fff;
+  position: relative;
+  margin-top: 63px;
+  font-family: "OpenSans";
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 45, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission-btn {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    left: 30%;
+    letter-spacing: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 45, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission-btn {
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    left: 24%;
+    letter-spacing: 0;
+  }
+}
+
+/* line 71, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 74, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__txt-edit {
+  padding-right: 200px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 74, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__txt-edit {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 74, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__txt-edit {
+    padding-right: 0;
+  }
+}
+
+/* line 80, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission__txt-edit p {
+  width: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 80, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .mission__txt-edit p {
+    width: 100%;
+  }
+}
+
+/* line 84, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.mission-edit {
+  padding-bottom: 55px;
+  padding-top: 35px !important;
+}
+
+/* line 87, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.missionimg {
+  padding-top: 65px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 87, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .missionimg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 87, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+  .missionimg {
+    display: none;
+  }
+}
+
+/* line 93, C:/Users/Коля/Desktop/Project/sass/components/eighth.sass */
+.imgvolna {
+  position: absolute;
+  bottom: 140px;
+}
+
+/* line 1, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #394757;
+  height: 150px;
+  position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 1, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer {
+    height: 310px;
+  }
+}
+
+/* line 9, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer__nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 16, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "OpenSans";
+  font-weight: 400;
+}
+
+/* line 23, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer__nav a:hover {
+  cursor: pointer;
+  color: #7b9bc1;
+  transition: .3s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 9, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__nav {
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 9, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 34, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__nav a {
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+/* line 37, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer__logo {
+  position: absolute;
+  width: 11%;
+  left: 150px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 37, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__logo {
+    width: 15%;
+    left: 75px;
+    top: 29px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 37, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__logo {
+    width: 11%;
+    left: 100px;
+    bottom: 0px;
+  }
+}
+
+/* line 50, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+.footer__social {
+  position: absolute;
+  top: 57px;
+  right: 150px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 50, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__social {
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 50, C:/Users/Коля/Desktop/Project/sass/components/footer.sass */
+  .footer__social {
+    position: absolute;
+    right: 120px;
+    top: 40px;
+  }
+}
+
+/*# sourceMappingURL=../css/index.map */
