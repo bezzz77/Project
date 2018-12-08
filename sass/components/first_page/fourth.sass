@@ -86,11 +86,45 @@
 .slider__form
   display: none
   justify-content: center
+  z-index: 999
+  position: fixed
+  width: 100vw
+  height: 100vh
+  top: 0
+  left: 0
+  background-color: rgba(0,0,0, 0.7)
 .slider__form-wrap
   width: 945px
   height: 655px
   background-color: #fff
   border-radius: 25px
+  position: fixed
+  margin-top: 8%
+  margin-left: 50%
+  transform: translateX(-50%)
+  .slider-btn
+    height: 65px
+    width: 420px
+    border-radius: 25px
+    background-image: linear-gradient(top, #66b258 25px, bottom #66b258 25px, left #66b258 25px, right #66b258 25px)
+    border: 0
+    color: #fff
+    position: relative
+    font-family: "OpenSans"
+    font-size: 24px
+    font-weight: bold
+    text-transform: uppercase
+    letter-spacing: 1px
+    @include res('tab')
+      width: 160px
+      margin: 0 auto
+  #close
+    position: absolute
+    font-size: 29px
+    cursor: pointer
+    display: block
+    top: 10px
+    right: 20px
   h5
     font-size: 36px
     color: #7b9bc1
@@ -117,19 +151,3 @@
   border-top-width: 0
   border-left-width: 0
   border-right-width: 0
-.slider-btn
-  height: 65px
-  width: 420px
-  border-radius: 25px
-  background-color: #65b359
-  border: 0
-  color: #fff
-  position: relative
-  font-family: "OpenSans"
-  font-size: 24px
-  font-weight: bold
-  text-transform: uppercase
-  letter-spacing: 1px
-  @include res('tab')
-    width: 160px
-    margin: 0 auto

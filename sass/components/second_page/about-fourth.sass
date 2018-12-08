@@ -1,0 +1,74 @@
+.certificate__wrap-block-one
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-evenly
+  padding-bottom: 90px
+  padding-top: 90px
+  @include res('mob')
+    flex-direction: column
+.certificate__wrap-block-one-txt
+  width: 31%
+  @include res('mob')
+    width: 75%
+    text-align: center
+    padding-bottom: 10px
+  p
+    font-size: 16px
+    font-family: "Open Sans"
+    font-weight: 300
+    line-height: 1.5
+    @include res('mob')
+      font-size: 15px
+.certificate__wrap-block-one-img
+  @include res('mob')
+    img
+      width: 90%
+.certificate__wrap-block-two-img
+  position: relative
+.volnacimg
+  position: absolute
+  bottom: 0
+.certificate__wrap-block-two
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  padding-bottom: 70px
+  @include res('mob')
+    flex-direction: column-reverse
+.certificate__wrap-block-two-txt
+  width: 60%
+  @include res('mob')
+    display: block
+    text-align: center
+    padding-bottom: 20px
+  h3
+    font-size: 36px
+    font-family: "Open Sans"
+    font-weight: bold
+    color: #7b9bc1
+    padding-bottom: 40px
+    @include res('mob')
+      font-size: 23px
+  p
+    font-size: 18px
+    font-weight: bold
+    font-family: "Open Sans"
+    padding-bottom: 40px
+    @include res('mob')
+      font-size: 16px
+  span
+    font-size: 16px
+    font-weight: 300
+    font-family: "Open Sans"
+    @include res('mob')
+      font-size: 13px
+.certificate__wrap-block-two-img
+  @include res('tab')
+    width: 90%
+  @include res('mob')
+    display: block
+    text-align: center
+    img
+      width: 80%

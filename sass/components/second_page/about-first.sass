@@ -1,0 +1,51 @@
+.about-first
+  position: relative
+  background-image: url("../img/backabout.png")
+  background-repeat: no-repeat
+  background-size: cover
+  height: 400px
+  @include res('tab')
+    background-size: auto
+  @include res('mob')
+    position: relative
+    background-image: url("../img/back5.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    &::before
+      content: ""
+      background: #1f1f29
+      opacity: 0.8
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      position: absolute
+.aboutfirstblock
+  position: relative
+  display: flex
+  justify-content: space-between
+  @include res('tab')
+    display: flex
+    justify-content: center
+  @include res('mob')
+    display: flex
+    justify-content: center
+.aboutfirstblock__wrap
+  width: 100%
+  height: 400px
+  display: flex
+  align-items: center
+  @include res('mob')
+    align-items: flex-start
+  h1
+    font-size: 36px
+    font-family: "OpenSans"
+    font-weight: 600
+    color: #fff
+  @include res('tab')
+    h1
+      font-size: 30px
+      text-align: center
+  @include res('mob')
+    padding-top: 50px

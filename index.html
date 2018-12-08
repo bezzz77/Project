@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Life Deluxe</title>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <script type="text/javascript"  src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript"  src="owlcarousel/owl.carousel.min.js"></script>
+  <script type="text/javascript"  src="js/main.js"></script>
 </head>
 <body>
   <header class="header">
@@ -207,13 +212,14 @@
                   У ВАС ДОМА!</h3>
                 </div>
                 <div class="slider__animation">
+
                   <div class="slider__animation-one slider-block">
                     <div class="sl__anim-img-wrap">
                       <img src="img/cool1.png" alt="">
                     </div>
                     <div class="sl__anim-txt-wrap">
                       <p>WHI Coffee IV-Edge</p>
-                      <button type="button" name="button" class="slider-btn">подробнее</button>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
                     </div>
                   </div>
                   <div class="slider__animation-two slider-block">
@@ -222,7 +228,7 @@
                     </div>
                     <div class="sl__anim-txt-wrap">
                       <p>Ambient Comfort</p>
-                      <button type="button" name="button" class="slider-btn">подробнее</button>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
                     </div>
                   </div>
                   <div class="slider__animation-three slider-block">
@@ -231,16 +237,43 @@
                     </div>
                     <div class="sl__anim-txt-wrap">
                       <p>Sparkling RO</p>
-                      <button type="button" name="button" class="slider-btn">подробнее</button>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="slider__animation-three slider-block">
+                    <div class="sl__anim-img-wrap">
+                      <img src="img/cool2.png" alt="">
+                    </div>
+                    <div class="sl__anim-txt-wrap">
+                      <p>Sparkling RO</p>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="slider__animation-three slider-block">
+                    <div class="sl__anim-img-wrap">
+                      <img src="img/cool2.png" alt="">
+                    </div>
+                    <div class="sl__anim-txt-wrap">
+                      <p>Sparkling RO</p>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="slider__animation-three slider-block">
+                    <div class="sl__anim-img-wrap">
+                      <img src="img/cool2.png" alt="">
+                    </div>
+                    <div class="sl__anim-txt-wrap">
+                      <p>Sparkling RO</p>
+                      <button type="button" name="button" class="slider-btn showPopupButton">подробнее</button>
                     </div>
                   </div>
                 </div>
 
 
               </div>
-              <div class="slider__form">
+              <div class="slider__form" id="slider__form">
                 <div class="slider__form-wrap">
-                  <h5>Заполните форму</h5>
+                  <h5>Заполните форму</h5><span id='close'>x</span>
                   <p>Чтобы подобрать настольный фильтр с идеальным набором функций для вашей семьи или офиса, заполните форму ниже и наш менеджер поможет вам.</p>
                   <div class="slider__form-send">
                     <input placeholder="Ваше имя" name="user" class="slider__form-send-edit">
@@ -392,7 +425,6 @@
           </footer>
     </main>
 
-<script src="js/jquery-3.3.1.min"></script>
-<script src="js/main.js"></script>
+
 </body>
 </html>
