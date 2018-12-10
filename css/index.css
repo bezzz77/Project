@@ -3388,7 +3388,7 @@ body {
 .blockforprice .pricecool {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-bottom: 40px;
 }
 
@@ -3509,14 +3509,16 @@ body {
   }
 }
 
-/* line 119, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
-.wrapfortwoblock .blockforprice .pricecool {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+@media only screen and (max-width: 767px) {
+  /* line 119, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock .blockforprice .pricecool {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
-/* line 123, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 125, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .description__wrapblocktwo {
   /*display: none */
 }

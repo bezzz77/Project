@@ -55,7 +55,7 @@
   .pricecool
     display: flex
     align-items: center
-    justify-content: flex-end
+    justify-content: space-between
     padding-bottom: 40px
     p
       font-size: 30px
@@ -117,9 +117,11 @@
     @include res('mob')
       width: 100%
     .pricecool
-      align-items: center
-      justify-content: center
-      flex-direction: column
+
+      @include res('mob')
+        align-items: center
+        justify-content: center
+        flex-direction: column
 .description__wrapblocktwo
   /*display: none
 .description__wrapblockthree
