@@ -17,10 +17,24 @@
   display: flex
   justify-content: space-around
   padding-bottom: 55px
+  @include res('tab')
+    display: grid
+    grid-template-columns: 150px 150px 150px
+    justify-content: space-around
+  @include res('mob')
+    display: flex
+    flex-direction: column
+    align-items: center
+
   .blockforedit
     display: flex
     flex-direction: row
     align-items: center
+    @include res('mob')
+      padding-bottom: 15px
+      width: 200px
+      display: flex
+      justify-content: space-between
     img
       padding-right: 10px
     p
@@ -74,12 +88,22 @@
         height: 40px
         width: 180px
         font-size: 14px
-        left: 24%
+        left: 0
         letter-spacing: 0
 .wrapfortwoblock
   display: flex
   justify-content: space-between
+  @include res('tab')
+    flex-direction: column
+  @include res('mob')
+    flex-direction: column
   .blockfortable
+    width: 490px
+    background-color: #f4f7fa
+    @include res('tab')
+      width: 100%
+    @include res('mob')
+      width: 100%
     .fotorama
       display: flex
       justify-content: center
@@ -88,11 +112,14 @@
         height: 500px
         width: 90%
         margin: 0 auto
-  .blockfortable
-    width: 490px
-    background-color: #f4f7fa
   .blockforprice
     width: 630px
+    @include res('mob')
+      width: 100%
+    .pricecool
+      align-items: center
+      justify-content: center
+      flex-direction: column
 .description__wrapblocktwo
   /*display: none
 .description__wrapblockthree

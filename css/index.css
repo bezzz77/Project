@@ -3231,8 +3231,15 @@ body {
   line-height: 1.5;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 46, C:/Users/Коля/Desktop/Project/sass/components/last_page/firstsectionblock.sass */
+  .choosecool__wrap p {
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 54, C:/Users/Коля/Desktop/Project/sass/components/last_page/firstsectionblock.sass */
+  /* line 56, C:/Users/Коля/Desktop/Project/sass/components/last_page/firstsectionblock.sass */
   .choosecool__wrap h1 {
     font-size: 30px;
     text-align: center;
@@ -3314,19 +3321,47 @@ body {
   padding-bottom: 55px;
 }
 
-/* line 20, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 16, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .functionthird__wrap {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 16, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .functionthird__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* line 29, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .functionthird__wrap .blockforedit {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-/* line 24, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+@media only screen and (max-width: 767px) {
+  /* line 29, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .functionthird__wrap .blockforedit {
+    padding-bottom: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* line 38, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .functionthird__wrap .blockforedit img {
   padding-right: 10px;
 }
 
-/* line 26, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 40, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .functionthird__wrap .blockforedit p {
   font-size: 16px;
   font-weight: bold;
@@ -3334,7 +3369,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 32, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 46, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice h4 {
   font-size: 18px;
   font-weight: bold;
@@ -3342,14 +3377,14 @@ body {
   padding-bottom: 30px;
 }
 
-/* line 37, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 51, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
 }
 
-/* line 41, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 55, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice .pricecool {
   display: flex;
   align-items: center;
@@ -3357,20 +3392,20 @@ body {
   padding-bottom: 40px;
 }
 
-/* line 46, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 60, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice .pricecool p {
   font-size: 30px;
   font-weight: bold;
 }
 
-/* line 49, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 63, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice .pricecool h3 {
   font-size: 48px;
   font-weight: bold;
   color: #7b9bc1;
 }
 
-/* line 53, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 67, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .blockforprice .pricecool .price-btn {
   height: 70px;
   width: 260px;
@@ -3387,7 +3422,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 53, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  /* line 67, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
   .blockforprice .pricecool .price-btn {
     height: 45px;
     width: 200px;
@@ -3399,47 +3434,89 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 53, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  /* line 67, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
   .blockforprice .pricecool .price-btn {
     height: 40px;
     width: 180px;
     font-size: 14px;
-    left: 24%;
+    left: 0;
     letter-spacing: 0;
   }
 }
 
-/* line 79, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 93, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .wrapfortwoblock {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 83, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 93, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 93, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock {
+    flex-direction: column;
+  }
+}
+
+/* line 100, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.wrapfortwoblock .blockfortable {
+  width: 490px;
+  background-color: #f4f7fa;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 100, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock .blockfortable {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 100, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock .blockfortable {
+    width: 100%;
+  }
+}
+
+/* line 107, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .wrapfortwoblock .blockfortable .fotorama {
   display: flex;
   justify-content: center;
 }
 
-/* line 87, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 111, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .wrapfortwoblock .blockfortable .tableforoption table {
   height: 500px;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 91, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
-.wrapfortwoblock .blockfortable {
-  width: 490px;
-  background-color: #f4f7fa;
-}
-
-/* line 94, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+/* line 115, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .wrapfortwoblock .blockforprice {
   width: 630px;
 }
 
-/* line 96, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+@media only screen and (max-width: 767px) {
+  /* line 115, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+  .wrapfortwoblock .blockforprice {
+    width: 100%;
+  }
+}
+
+/* line 119, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.wrapfortwoblock .blockforprice .pricecool {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 123, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
 .description__wrapblocktwo {
   /*display: none */
 }
