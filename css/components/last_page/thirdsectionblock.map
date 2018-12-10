@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../sass/components/last_page/thirdsectionblock.css",
+	"sources": [
+		"../../../sass/components/last_page/thirdsectionblock.sass"
+	],
+	"sourcesContent": [
+		".wrapfordescedit {\n  h3 {\n    font-size: 36px;\n    font-weight: bold;\n    color: #7b9bc1;\n    text-align: center;\n    padding-top: 35px;\n    padding-bottom: 35px; }\n  p {\n    font-size: 16px;\n    font-weight: 300;\n    line-height: 1.5; } }\n.functionthird__wrap {\n  display: flex;\n  justify-content: space-around;\n  padding-bottom: 55px;\n  .blockforedit {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    img {\n      padding-right: 10px; }\n    p {\n      font-size: 16px;\n      font-weight: bold;\n      color: #7b9bc1;\n      text-transform: uppercase; } } }\n"
+	],
+	"mappings": ";;AAAA,AACE,gBADc,CACd,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,IAAK;EAClB,KAAK,EAAE,OAAQ;EACf,UAAU,EAAE,MAAO;EACnB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,IAAK;CAAG;;;AAP5B,AAQE,gBARc,CAQd,CAAC,CAAC;EACA,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,GAAI;CAAG;;;AACxB,AAAA,oBAAoB,CAAC;EACnB,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;EAC9B,cAAc,EAAE,IAAK;CAWgB;;;AAdvC,AAIE,oBAJkB,CAIlB,aAAa,CAAC;EACZ,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,GAAI;EACpB,WAAW,EAAE,MAAO;CAOa;;;AAdrC,AAQI,oBARgB,CAIlB,aAAa,CAIX,GAAG,CAAC;EACF,aAAa,EAAE,IAAK;CAAG;;;AAT7B,AAUI,oBAVgB,CAIlB,aAAa,CAMX,CAAC,CAAC;EACA,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,IAAK;EAClB,KAAK,EAAE,OAAQ;EACf,cAAc,EAAE,SAAU;CAAG",
+	"names": []
+}

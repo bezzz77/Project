@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../sass/components/last_page/secondsectionblock.css",
+	"sources": [
+		"../../../sass/components/last_page/secondsectionblock.sass"
+	],
+	"sourcesContent": [
+		".secondsectionblock {}\n.slidercool__wrap {\n  display: flex;\n  justify-content: space-around;\n  padding-top: 65px;\n  padding-bottom: 50px;\n  .cooler-wrap {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    img {\n      width: 185px;\n      height: 300px; }\n    p {\n      font-size: 24px;\n      padding-top: 45px;\n      font-weight: bold;\n      text-transform: uppercase;\n      text-align: center;\n      &:hover {\n        cursor: pointer;\n        color: #7b9bc1;\n        transition: .3s; } } } }\n"
+	],
+	"mappings": ";;AACA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;EAC9B,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,IAAK;CAkBU;;;AAtBjC,AAKE,iBALe,CAKf,YAAY,CAAC;EACX,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,MAAO;EACvB,WAAW,EAAE,MAAO;CAaO;;;AAtB/B,AAUI,iBAVa,CAKf,YAAY,CAKV,GAAG,CAAC;EACF,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;CAAG;;;AAZvB,AAaI,iBAba,CAKf,YAAY,CAQV,CAAC,CAAC;EACA,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,IAAK;EAClB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;EAC1B,UAAU,EAAE,MAAO;CAII;;;AAtB7B,AAaI,iBAba,CAKf,YAAY,CAQV,CAAC,AAME,MAAM,CAAC;EACN,MAAM,EAAE,OAAQ;EAChB,KAAK,EAAE,OAAQ;EACf,UAAU,EAAE,GAAI;CAAG",
+	"names": []
+}

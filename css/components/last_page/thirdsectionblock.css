@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* line 2, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.wrapfordescedit h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #7b9bc1;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* line 9, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.wrapfordescedit p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* line 13, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.functionthird__wrap {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 55px;
+}
+
+/* line 17, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.functionthird__wrap .blockforedit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 21, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.functionthird__wrap .blockforedit img {
+  padding-right: 10px;
+}
+
+/* line 23, C:/Users/Коля/Desktop/Project/sass/components/last_page/thirdsectionblock.sass */
+.functionthird__wrap .blockforedit p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7b9bc1;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=../../../css/components/last_page/thirdsectionblock.map */
