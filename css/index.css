@@ -345,6 +345,32 @@ input[type="submit"] {
   border-radius: 0;
 }
 
+/* line 1, C:/Users/Коля/Desktop/Project/sass/partials/_variables.sass */
+button {
+  border-radius: 25px;
+  background: #689f61;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#689f61', endColorstr='#689f61',GradientType=0 );
+  /* IE6-9 */
+  border: 0;
+  color: #fff;
+}
+
+/* line 10, C:/Users/Коля/Desktop/Project/sass/partials/_variables.sass */
+button:hover {
+  background: #459e3a;
+  /* Old browsers */
+  background: linear-gradient(to bottom, #459e3a 0%, #4dde2c 50%, #30ab2a 100%);
+  transition: .3s;
+  border: 5px solid #78b969;
+}
+
 @font-face {
   font-family: "OpenSans";
   src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("opentype");
@@ -1158,7 +1184,16 @@ body {
   height: 70px;
   width: 360px;
   border-radius: 25px;
-  background-color: #4bdc2a;
+  background: #689f61;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#689f61', endColorstr='#689f61',GradientType=0 );
+  /* IE6-9 */
   border: 0;
   color: #fff;
   position: relative;
@@ -1167,6 +1202,15 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/* line 76, C:/Users/Коля/Desktop/Project/sass/components/first_page/third.sass */
+.combination-btn:hover {
+  background: #459e3a;
+  /* Old browsers */
+  background: linear-gradient(to bottom, #459e3a 0%, #4dde2c 50%, #30ab2a 100%);
+  transition: .3s;
+  border: 5px solid #78b969;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1250,7 +1294,15 @@ body {
   }
 }
 
-/* line 31, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+@media only screen and (max-width: 767px) {
+  /* line 25, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .sl__anim-img-wrap img {
+    width: 100%;
+    padding: 40px 70px 35px;
+  }
+}
+
+/* line 34, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider-block {
   position: relative;
   width: 360px;
@@ -1260,7 +1312,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 31, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 34, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .slider-block {
     width: 230px;
     height: 450px;
@@ -1268,7 +1320,14 @@ body {
   }
 }
 
-/* line 41, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+@media only screen and (max-width: 767px) {
+  /* line 34, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider-block {
+    width: 90%;
+  }
+}
+
+/* line 46, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider-block p {
   font-size: 24px;
   font-family: "OpenSans";
@@ -1278,13 +1337,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 41, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 46, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .slider-block p {
     font-size: 20px;
   }
 }
 
-/* line 49, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 54, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider-block button {
   height: 65px;
   width: 250px;
@@ -1301,7 +1360,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 49, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 54, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .slider-block button {
     height: 45px;
     width: 160px;
@@ -1312,7 +1371,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 49, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 54, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .slider-block button {
     height: 40px;
     width: 180px;
@@ -1322,7 +1381,7 @@ body {
   }
 }
 
-/* line 74, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 79, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .sl__anim-txt-wrap {
   position: absolute;
   bottom: 10px;
@@ -1332,7 +1391,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 74, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 79, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .sl__anim-txt-wrap {
     position: absolute;
     bottom: 10px;
@@ -1344,7 +1403,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 74, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 79, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .sl__anim-txt-wrap {
     left: 0;
     width: 100%;
@@ -1352,7 +1411,7 @@ body {
   }
 }
 
-/* line 91, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 96, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form {
   display: none;
   justify-content: center;
@@ -1365,24 +1424,50 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 101, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 106, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-wrap {
   width: 945px;
   height: 655px;
   background-color: #fff;
   border-radius: 25px;
   position: fixed;
-  margin-top: 8%;
+  margin-top: 7%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 110, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 106, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-wrap {
+    width: 90%;
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 106, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-wrap {
+    width: 90%;
+    height: 80%;
+    margin-top: 15%;
+  }
+}
+
+/* line 122, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-wrap .slider-btn {
   height: 65px;
   width: 420px;
   border-radius: 25px;
-  background-image: linear-gradient(top, #66b258 25px, bottom #66b258 25px, left #66b258 25px, right #66b258 25px);
+  background: #689f61;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #689f61 0%, #6dc159 50%, #689f61 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#689f61', endColorstr='#689f61',GradientType=0 );
+  /* IE6-9 */
   border: 0;
   color: #fff;
   position: relative;
@@ -1393,15 +1478,31 @@ body {
   letter-spacing: 1px;
 }
 
+/* line 139, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+.slider__form-wrap .slider-btn:hover {
+  background: #459e3a;
+  /* Old browsers */
+  background: linear-gradient(to bottom, #459e3a 0%, #4dde2c 50%, #30ab2a 100%);
+  transition: .3s;
+  border: 5px solid #78b969;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 110, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  /* line 122, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
   .slider__form-wrap .slider-btn {
-    width: 160px;
     margin: 0 auto;
   }
 }
 
-/* line 126, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+@media only screen and (max-width: 767px) {
+  /* line 122, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-wrap .slider-btn {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+/* line 149, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-wrap #close {
   position: absolute;
   font-size: 29px;
@@ -1411,7 +1512,7 @@ body {
   right: 20px;
 }
 
-/* line 133, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 156, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-wrap h5 {
   font-size: 36px;
   color: #7b9bc1;
@@ -1422,7 +1523,7 @@ body {
   padding: 45px 0 70px;
 }
 
-/* line 141, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 164, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-wrap p {
   text-align: center;
   font-size: 16px;
@@ -1432,14 +1533,21 @@ body {
   padding: 0 50px 85px;
 }
 
-/* line 148, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+@media only screen and (max-width: 767px) {
+  /* line 164, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-wrap p {
+    padding: 0 30px 70px;
+  }
+}
+
+/* line 173, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-send {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 152, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+/* line 177, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
 .slider__form-send-edit {
   width: 750px;
   height: 60px;
@@ -1447,6 +1555,21 @@ body {
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 177, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-send-edit {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 177, C:/Users/Коля/Desktop/Project/sass/components/first_page/fourth.sass */
+  .slider__form-send-edit {
+    width: 70%;
+    height: 80%;
+  }
 }
 
 /* line 1, C:/Users/Коля/Desktop/Project/sass/components/first_page/fifth.sass */

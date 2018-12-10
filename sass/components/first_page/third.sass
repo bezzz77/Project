@@ -60,7 +60,11 @@
   height: 70px
   width: 360px
   border-radius: 25px
-  background-color: #4bdc2a
+  background: #689f61; /* Old browsers */
+  background: -moz-linear-gradient(top, #689f61 0%, #6dc159 50%, #689f61 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #689f61 0%,#6dc159 50%,#689f61 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #689f61 0%,#6dc159 50%,#689f61 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#689f61', endColorstr='#689f61',GradientType=0 ); /* IE6-9 */
   border: 0
   color: #fff
   position: relative
@@ -69,6 +73,11 @@
   font-weight: bold
   text-transform: uppercase
   letter-spacing: 1px
+  &:hover
+    background: #459e3a; /* Old browsers */
+    background: linear-gradient(to bottom, #459e3a 0%,#4dde2c 50%,#30ab2a 100%)
+    transition: .3s
+    border: 5px solid #78b969
   @include res('tab')
     height: 45px
     width: 200px
