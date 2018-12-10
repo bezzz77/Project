@@ -39,29 +39,34 @@
     flex-direction: column-reverse
 .certificate__wrap-block-two-txt
   width: 60%
+  display: flex
+  flex-direction: column
+  align-items: flex-end
   @include res('mob')
     display: block
     text-align: center
     padding-bottom: 20px
   h3
-    font-size: 36px
+    font-size: 17px
     font-family: "Open Sans"
-    font-weight: bold
-    color: #7b9bc1
-    padding-bottom: 40px
+    font-weight: 300
+    padding-top: 40px
     @include res('mob')
       font-size: 23px
   p
-    font-size: 18px
-    font-weight: bold
-    font-family: "Open Sans"
-    padding-bottom: 40px
-    @include res('mob')
-      font-size: 16px
-  span
     font-size: 16px
     font-weight: 300
     font-family: "Open Sans"
+    padding-bottom: 15px
+    padding-top: 15px
+    @include res('mob')
+      font-size: 16px
+  span
+    font-size: 18px
+    font-weight: 300
+    font-family: "Open Sans"
+    font-style: italic
+    line-height: 1.5
     @include res('mob')
       font-size: 13px
 .certificate__wrap-block-two-img
@@ -72,3 +77,8 @@
     text-align: center
     img
       width: 80%
+.namewrap
+  display: flex
+  align-items: center
+  .ceowrap
+    padding-right: 30px

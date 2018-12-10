@@ -6,13 +6,21 @@
   position: relative
   @include res('mob')
     height: 310px
+  .footer_wrap
+    display: flex
+    align-items: center
+    @include res('mob')
+      flex-direction: column
+
 .footer__nav
   height: 50px
   width: 100%
   display: flex
   flex-direction: row
-  justify-content: space-around
+  justify-content: space-evenly
   align-items: center
+  li
+    padding-left: 40px
   a
     color: #fff
     text-decoration: none
@@ -27,33 +35,17 @@
   @include res('tab')
     flex-direction: column
     justify-content: center
+    li
+      padding-left: 0
     line-height: 1.5
   @include res('mob')
     flex-direction: column
     justify-content: center
+    height: 140px
+    li
+      padding-left: 0
     a
       font-size: 13px
       font-weight: 400
-.footer__logo
-  position: absolute
-  width: 11%
-
-  left: 150px
-  @include res('tab')
-    width: 15%
-    left: 75px
-    top: 29px
-  @include res('mob')
-    width: 11%
-    left: 100px
-    bottom: 0px
-.footer__social
-  position: absolute
-  top: 57px
-  right: 150px
-  @include res('tab')
-    right: 100px
-  @include res('mob')
-    position: absolute
-    right: 120px
-    top: 40px
+.footer__contact-position
+  display: flex
