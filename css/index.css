@@ -493,33 +493,7 @@ body {
 }
 
 /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-.header__logo {
-  padding-top: 20px;
-  margin-left: 30px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-  .header__logo {
-    width: 15%;
-    margin-right: 30px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-  .header__logo {
-    width: 20%;
-  }
-}
-
-/* line 31, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-.header__logo-img {
-  width: 100%;
-}
-
-/* line 33, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-.header__contact-position-one {
+.header__contact .header__contact-position-one {
   display: flex;
   align-items: center;
   padding-top: 20px;
@@ -528,40 +502,66 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 33, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-  .header__contact-position-one {
+  /* line 23, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__contact .header__contact-position-one {
     font-size: 12px;
     padding-top: 0;
     margin-right: 20px;
   }
 }
 
-/* line 43, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-.header__contact-position-one a {
+/* line 33, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact .header__contact-position-one a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 46, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
-.header__contact-position-one img {
+/* line 36, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__contact .header__contact-position-one img {
   padding-right: 10px;
 }
 
-/* line 49, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 38, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__logo {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 38, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__logo {
+    width: 15%;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 38, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  .header__logo {
+    width: 20%;
+  }
+}
+
+/* line 46, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+.header__logo-img {
+  width: 100%;
+}
+
+/* line 48, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .header__contact-position {
   padding-top: 50px;
   font-family: "OpenSans";
   font-weight: 400;
 }
 
-/* line 53, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 52, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .header__contact-position a {
   text-decoration: none;
   color: #000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 49, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 48, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .header__contact-position {
     padding-top: 30px;
     font-size: 12px;
@@ -569,12 +569,12 @@ body {
   }
 }
 
-/* line 60, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 59, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .img-rounded {
   padding-left: 15px;
 }
 
-/* line 63, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 62, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .header__nav {
   height: 50px;
   width: 100%;
@@ -584,7 +584,7 @@ body {
   align-items: center;
 }
 
-/* line 70, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 69, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .header__nav a {
   color: #303030;
   text-decoration: none;
@@ -594,7 +594,7 @@ body {
   font-weight: bold;
 }
 
-/* line 77, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 76, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .header__nav a:hover {
   cursor: pointer;
   color: #7b9bc1;
@@ -602,7 +602,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 82, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 81, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .header__nav a {
     font-size: 13px;
     font-weight: 400;
@@ -610,19 +610,19 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 63, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 62, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .header__nav {
     display: none;
   }
 }
 
-/* line 88, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 87, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .background-nav {
   background-color: #e7edf4;
   width: 100%;
 }
 
-/* line 91, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 90, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .call-back {
   height: 50px;
   width: 226px;
@@ -632,12 +632,12 @@ body {
   align-items: center;
 }
 
-/* line 98, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 97, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .call-back a {
   color: #fff;
 }
 
-/* line 100, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 99, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .call-back a:hover {
   cursor: pointer;
   color: #000;
@@ -645,7 +645,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 91, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 90, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .call-back {
     margin-right: -15px;
     width: 175px;
@@ -654,36 +654,36 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 112, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 111, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .header__nav-link:last-child {
     margin-right: 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 115, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 114, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu {
     display: flex;
   }
-  /* line 118, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 117, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu__input {
     display: none;
   }
-  /* line 120, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 119, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu__input:not(checked) ~ .menu__content {
     display: none;
   }
-  /* line 122, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 121, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu__input:checked ~ .menu__content {
     display: block;
   }
-  /* line 124, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 123, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu__label {
     cursor: pointer;
   }
 }
 
-/* line 127, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 126, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .menu__content a {
   font-size: 16px;
   font-family: "OpenSans";
@@ -693,25 +693,25 @@ body {
   line-height: 1.5;
 }
 
-/* line 134, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 133, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .menu__content a:hover {
   cursor: pointer;
   color: #7b9bc1;
 }
 
-/* line 137, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 136, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .menu__label {
   height: 32px;
   width: 32px;
 }
 
-/* line 140, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 139, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .menu {
   display: none;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 140, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+  /* line 139, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
   .menu {
     display: flex;
     flex-direction: column;
@@ -720,7 +720,7 @@ body {
   }
 }
 
-/* line 147, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
+/* line 146, C:/Users/Коля/Desktop/Project/sass/components/header.sass */
 .menu__content-edit {
   display: flex;
   flex-direction: column;
